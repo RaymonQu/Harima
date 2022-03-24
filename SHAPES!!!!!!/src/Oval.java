@@ -21,11 +21,12 @@ public class Oval extends Shape
   {
     // set the color to draw the shape in
     g.setColor(getColor());
-    
+
     // draw the oval given the top left corner of the enclosing
     // rectangle and the width and height
     g.drawOval(getMinX(), getMinY(), getWidth(), getHeight()); // the getter methods here are INHERITED FROM SHAPE!
   }
 }
+
 
 
