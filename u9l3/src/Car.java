@@ -28,15 +28,10 @@ public class Car extends Vehicle
     return super.calculateTollPrice();
   }
 
-  public void printCar()
-  {
-    // print the car's license plate, toll fee, number of passengers,
-    // whether it is electric, and whether a discount has been applied
-    System.out.println("License plate: " + getLicensePlate());
-    System.out.println("Toll fee: " + getTollFee());
-    System.out.println("Passengers: " + getPassengers());
-    System.out.println("Electric? " + electric);
-    System.out.println("Discount applied? " + discountApplied);
+  @Override
+  public void printInfo(){
+    super.printInfo();
+    System.out.println("IsElectric?: " + isElectric() + "\nDiscount? " + discountApplied);
   }
 
   public boolean dropOffPassengers(int numOut)

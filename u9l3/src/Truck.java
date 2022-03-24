@@ -10,15 +10,10 @@ public class Truck extends Vehicle
     this.hasTrailer = hasTrailer;
   }
 
-  public void printTruck()
-  {
-    // print the truck's license plate, toll fee, number of passengers, axles,
-    // and whether it has a trailer
-    System.out.println("License plate: " + getLicensePlate());
-    System.out.println("Toll fee: " + getTollFee());
-    System.out.println("Passengers: " + getPassengers());
-    System.out.println("Number of axles: " + axles);
-    System.out.println("Has trailer? " + hasTrailer);
+  @Override
+  public void printInfo(){
+    super.printInfo();
+    System.out.println("Axles: " + axles + "\nhasTrailer: " + hasTrailer);
   }
 
   @Override
