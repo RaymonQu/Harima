@@ -15,6 +15,6 @@ public class Arc extends Shape{
     @Override
     public void draw(Graphics g){
         g.setColor(getColor());
-        super.drawArc(g);
+        g.drawArc(getMinX(), getMinY(), getWidth(), getHeight(), startingAngle, arcAngle);
     }
 }

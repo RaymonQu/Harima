@@ -158,6 +158,10 @@ public class ShapeIComponent extends JComponent
       {
         currentShape = new Oval();
       }
+      else if (currShapeType.equals(Shape.ARC))
+      {
+        currentShape = new Arc();
+      }
       
       // fill in point1 and point2 in the new shape
       currentShape.setPoint1Values(currX,currY);
