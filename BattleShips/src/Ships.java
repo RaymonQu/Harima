@@ -2,11 +2,13 @@ public class Ships {
     private int size;
     private boolean isDead;
     private boolean isHit;
+    private String signifier;
 
     public Ships(int size){
         this.size = size;
         isDead = false;
         isHit = false;
+        signifier = null;
     }
 
 
@@ -22,13 +24,16 @@ public class Ships {
         return isHit;
     }
 
-
     public void setDead(){
         isDead = true;
     }
 
     public boolean getStatus(){
         return isDead;
+    }
+
+    public void setSignifier(String letter){
+        signifier = letter;
     }
 
 }
