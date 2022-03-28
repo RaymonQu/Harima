@@ -2,16 +2,14 @@ public class Main
 {
   public static void main(String[] args)
   {
-    /*
+
     System.out.println("--- Testing Dancer constructor ---");
     Agent maria = new Agent("Maria Hilliard", "917-221-3451");
     Dancer tony = new Dancer("Tony Danza", 32, maria, 11);
-    */
 
-    /*
+
     System.out.println("--- Testing Part 1: pirouette ---");
     tony.pirouette(5); // new method
-    */
 
     /*
     System.out.println("\n--- Testing Part 2: rehearse ---");
