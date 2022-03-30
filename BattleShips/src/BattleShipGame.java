@@ -4,6 +4,7 @@ public class BattleShipGame {
     private Player player;
     private Player player2;
     private Scanner scan;
+    private boolean gameOver;
 
     public BattleShipGame(){
         player = new Player();
@@ -21,11 +22,10 @@ public class BattleShipGame {
     }
 
 
-
-
-
-    public void shoot(){
-
+    public void shoot(int row, int column){
+        player2.getBoard().setMissOrHit(row, column);
     }
+
+    public
 
 }

@@ -3,12 +3,13 @@ public class Ships {
     private boolean isDead;
     private boolean isHit;
     private String signifier;
+    // A = aircraft car B = battle C= cruiser d = destroyer s= submarine
 
-    public Ships(int size){
+    public Ships(int size, String signifier){
         this.size = size;
         isDead = false;
         isHit = false;
-        signifier = null;
+        this.signifier = signifier;
     }
 
 
@@ -34,6 +35,10 @@ public class Ships {
 
     public void setSignifier(String letter){
         signifier = letter;
+    }\
+
+    public String getSignifier(){
+        return signifier;
     }
 
 }

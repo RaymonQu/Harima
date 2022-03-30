@@ -13,7 +13,4 @@ public class Player {
         return board;
     }
 
-    public void setUpBoats(){
-
-    }
 }

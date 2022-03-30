@@ -1,7 +1,10 @@
 import java.util.ArrayList;
+import java.util.Locale;
 
 public class Board {
     private String[][] Board;
+    private String[][] hiddenBoard;
+
 
     public Board(){
         Board = new String[10][10];
@@ -30,14 +33,47 @@ public class Board {
     }
 
     public void putShipsOnBoard(Ships ship, int row, int column, String direction){
-        //if(ship.getSize() < )
+        int counter;
+        if (direction.toUpperCase().equals("E")) {
+            counter = row;
+            while (row - ship.getSize() > 0) {
+                for(int i = 0; i < ship.getSize(); i++){
+                    Board[counter][column] = ship.getSignifier();
+                    counter--;
+                }
+            }
+        }
+        else if(direction.toUpperCase().equals("W")){
+            counter = row;
+            while (row + ship.getSize() < 10) {
+                for(int i = 0; i < ship.getSize(); i++){
+                    Board[counter][column] = ship.getSignifier();
+                    counter++;
+                }
+            }
+        }
+        else if(direction.toUpperCase().equals("N")){
+            counter = column;
+            while (column + ship.getSize() < 10) {
+                for(int i = 0; i < ship.getSize(); i++){
+                    Board[row][counter] = ship.getSignifier();
+                    counter++;
+                }
+            }
+        }
+        else if(direction.toUpperCase().equals("S")){
+
+        }
     }
+
 
     public void setMissOrHit(int row, int column){
         if(Board[row][column] == "B"){
-
+            Board[row][column] = "X";
         }
-
+        else{
+            Board[row][column] = "O";
+        }
     }
 
 }
