@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="897de250-80a3-447d-ba58-82fa25f1f33f" name="Changes" comment="" />
+    <list default="true" id="897de250-80a3-447d-ba58-82fa25f1f33f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/breloom/src/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/breloom/src/Plane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/breloom/src/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/breloom/src/brelooom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inte/src/Cow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inte/src/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inte/src/Garden.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inte/src/Waterable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inte/src/runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minilab1/src/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minilab1/src/BinarySearchRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minilab1/src/Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minilab1/src/SortTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u10l2/src/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u10l2/src/Mystery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u9T7/src/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u9T7/src/PointTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u9T7/src/ThreeDPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/u9t6/src/InsuredShippingItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/u9t6/src/InsuredShippingItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/u9t6/src/ShippingItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/u9t6/src/ShippingItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/u9t6/src/ShippingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/u9t6/src/ShippingTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +49,27 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RunManager">
+    <configuration name="runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../Program Files/Java/jdk-17.0.1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="runner" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="u9l3 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="u9l3 2" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="u9l3 2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,19 +134,11 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="u9l3 2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="u9l3 2" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.runner" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

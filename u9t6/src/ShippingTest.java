@@ -27,6 +27,17 @@ public class ShippingTest
     itemList.add(new InsuredShippingItem(20, 50));
     itemList.add(new ShippingItem(30));
     itemList.add(new InsuredShippingItem(50, 70));
+
+    for(ShippingItem item: itemList){
+      if(item instanceof InsuredShippingItem){
+        InsuredShippingItem newnewItem = (InsuredShippingItem)(item);
+        newnewItem.addMoreInsurance(30);
+        totalCost += newnewItem.getCost();
+      }
+      else{
+        totalCost += item.getCost();
+      }
+    }
     
     /* MISSING CODE, TO BE WRITTEN IN PART D */
     // determine the totalCost of all 4 items by iterating through

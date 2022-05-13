@@ -1,0 +1,5 @@
+interface Waterable {
+
+
+    void giveWater();
+}
